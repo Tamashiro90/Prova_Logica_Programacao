@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+    <p id="show"></p>
+    <script>
+        var input1=parseInt(prompt('Inserir um DDD'))
+
+        var ddd=[61,71,11,21,32,19,27,31];
+        var destination=['Brasilia', 'Salvador', 'Sao Paulo', 'Rio de Janeiro', 'Juiz de Fora', 'Campinas', 'Vitoria', 'Belo Horizonte'];
+
+        switch (input1){
+
+        case ddd[0]:
+            input1=`DDD ${ddd[0]}, destino ${destination[0]}.`
+            break;
+
+        case ddd[1]:
+            input1=`DDD ${ddd[1]}, destino ${destination[1]}.`
+            break;
+
+        case ddd[2]:
+            input1=`DDD ${ddd[2]}, destino ${destination[2]}.`
+            break;
+
+        case ddd[3]:
+            input1=`DDD ${ddd[3]}, destino ${destination[3]}.`
+            break;
+
+        case ddd[4]:
+            input1=`DDD ${ddd[4]}, destino ${destination[4]}.`
+            break;
+
+        case ddd[5]:
+            input1=`DDD ${ddd[5]}, destino ${destination[5]}.`
+            break;
+
+        case ddd[6]:
+            input1=`DDD ${ddd[6]}, destino ${destination[6]}.`
+            break;
+
+        case ddd[7]:
+            input1=`DDD ${ddd[7]}, destino ${destination[7]}.`
+            break;
+
+        default:
+            input1=`DDD não cadastrado.`
+        }
+        document.getElementById("show").innerHTML = input1;
+    </script>
+</body>
+</html>
